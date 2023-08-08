@@ -242,10 +242,32 @@
     .lista-quatro{
         font-size: 15px;
     }
-}/* 
+}
 @media screen and (max-width: 350px){
     .um{
-        font-size: 10px
+        font-size: 12px
     }
-} */
+    .texto-dois p{
+        font-size: 12px;
+    }
+    .lista-dois {
+        font-size: 12px;
+    }
+    .texto-tres-um p{
+        font-size: 12px;
+    }
+    .texto-tres-dois{
+        font-size: 12px;
+    }
+    .texto-quatro{
+        font-size: 12px;
+    }
+
+    .lista-quatro{
+        font-size: 12px;
+    }
+    .texto-cinco{
+        font-size: 15px;
+    }
+} 
 /* @media Screen */
