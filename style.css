@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #444;
+  
+}
+
+/* ==================HAGA1============ */
+.haga1{
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.212);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ==================HAGA1============ */
+
+/* SLIDER */
+.container-slider {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.container-images {
+  width: 80%;
+  height: 80%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.2s;
+
+  position: absolute;
+}
+
+.on {
+  opacity: 1;
+}
+
+
+#prev-button{
+    position: absolute;
+    left: 0;
+ 
+}
+#next-button{
+    position: absolute;
+    right: 0;
+}
+#prev-button,
+#next-button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+
+}
+
+#prev-button img,
+#next-button img {
+  width: 100%;
+  height: 100%;
+}
+
+#prev-button {
+  transform: rotate(180deg);
+}
+
+/* SLIDER */
+
+/* CONTEUDO DO SLIDE */
+
+/* CONTEUDO UM */
+.um {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.um img {
+  width: 500px;
+  height: 500px;
+}
+
+.texto-um {
+  margin: 0 20px;
+  
+}
+.texto-um h2 {
+  margin: 0px 0 50px 0;
+}
+/* CONTEUDO UM */
+
+
+
+
+
+
+/* CONTEUDO DOIS */
+.dois {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.texto-dois {
+    margin: 10% 10px 0 10px;
+}
+.texto-dois h2 {
+    margin: 0 0 20px 0;
+    font-size: 1.5rem;
+}
+
+.texto-dois p{
+    font-size: 20px;
+}
+.lista-dois {
+  margin: 50px auto 0 auto;
+  font-size: 20px;
+
+}
+
+/* CONTEUDO DOIS */
+
+
+/* conteudo tres */
+.tres{
+    display: flex;
+    align-items: center;
+    
+}
+
+.texto-tres-um{
+    font-size: 20px;
+    margin: 0 20px 0 0;
+}
+
+
+.texto-tres-dois{
+    font-size: 20px;
+}
+
+.tres h2{
+    margin: 0 0 20px 0;
+}
+/* conteudo tres */
+
+
+/* conteudo quatro */
+
+.quatro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.texto-quatro{
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+
+.texto-quatro h2 {
+    margin: 0 0 20px 0
+}
+
+.lista-quatro{
+    font-size: 20px;
+
+}
+.lista-quatro li{
+    font-weight: 700;
+    margin: 10px 0;
+}
+/* conteudo quatro */
+
+.cinco{
+    display: flex;
+    align-items: center;
+}
+
+.texto-cinco{
+ font-size: 20px;
+ margin: 0 20px;
+}
+.cinco li{
+    margin: 10px 0;
+}
+.cinco h2{
+    margin: 0 0 20px 0;
+}
+
+
+/* @media Screen */
+@media screen and (max-width: 1000px){
+    .um {
+        font-size: 20px;
+      }
+      .um img {
+        width: 200px;
+        height: 200px;
+      }
+      .texto-um h2 {
+        margin: 0;
+      }
+      
+
+}
+@media screen and (max-width: 650px){
+    .um {
+        font-size: 20px;
+      }
+      .um img {
+        width: 100px;
+        height: 100px;
+      }
+      .texto-um h2 {
+        margin: 0;
+      }
+      
+
+
+}
+@media screen and (max-width: 490px){
+    .um{font-size: 15px;}
+
+    .texto-quatro{
+        font-size: 15px;
+    }
+    .lista-quatro{
+        font-size: 15px;
+    }
+}/* 
+@media screen and (max-width: 350px){
+    .um{
+        font-size: 10px
+    }
+} */
+/* @media Screen */
